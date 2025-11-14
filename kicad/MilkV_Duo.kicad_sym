@@ -23,7 +23,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MilkV_Duo:MilkV_DuoModule01_Stamp_88"
 			(at 0 0 0)
 			(effects
 				(font
@@ -32,7 +32,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://milkv.io/duo-module-01"
 			(at 0 0 0)
 			(effects
 				(font
@@ -41,7 +41,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "The Duo Module 01 is a compact module with integrated SG2000, WI-FI6/BTDM5.4, and eMMC. It supports SMD mounting. Also it can greatly save product development time. It is the first choice for making products."
 			(at 0 0 0)
 			(effects
 				(font
@@ -486,6 +486,24 @@
 					)
 				)
 				(alternate "XGPIOA_8" bidirectional line)
+			)
+			(pin bidirectional line
+				(at -35.56 41.91 270)
+				(length 2.54)
+				(name "VCUT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "89"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
 			)
 			(pin output line
 				(at -26.67 41.91 270)
