@@ -9,19 +9,26 @@ in your hardware designs.
 
 ## Provided Components
 
-- [ ] Duo (CV1800B)
-  - [ ] Symbol
-  - [ ] Footprint
-  - [ ] 3D Model
-- [ ] Duo 256M (SG2002)
-  - [ ] Symbol
-  - [ ] Footprint
-  - [ ] 3D Model
-- [ ] Duo S (SG2000)
-  - [ ] Symbol
-  - [ ] Footprint
-  - [ ] 3D Model
-- [x] Duo Module 01 (SG2000)
-  - [x] Symbol
-  - [ ] Footprint
-  - [ ] 3D Model
+### Duo (CV1800B)
+
+| Symbol | Footprint | 3D Model |
+|--------------|-----------------|----------------|
+| Not Available | Not Available | Not Available |
+
+### Duo 256M (SG2002)
+
+| Symbol | Footprint | 3D Model |
+|--------------|-----------------|----------------|
+| Not Available | Not Available | Not Available |
+
+### Duo S (SG2000)
+
+| Symbol | Footprint | 3D Model |
+|--------------|-----------------|----------------|
+| Not Available | Not Available | Not Available |
+
+### Duo Module 01 (SG2000)
+
+| Symbol | Footprint | 3D Model |
+|--------------|-----------------|----------------|
+| ![Symbol](./img/MilkV_DuoModule01_SG2000_unit1.svg) | ![Footprint](./img/MilkV_DuoModule01_Stamp_88.svg) | Not Available |
