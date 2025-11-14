@@ -1,0 +1,1768 @@
+(kicad_symbol_lib
+	(version 20241209)
+	(generator "kicad_symbol_editor")
+	(generator_version "9.0")
+	(symbol "MilkV_DuoModule01_SG2000"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.9304 1.9304)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "MilkV_DuoModule01_SG2000_0_1"
+			(rectangle
+				(start -39.37 39.37)
+				(end 39.37 -39.37)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "MilkV_DuoModule01_SG2000_1_1"
+			(text "Milk-V Duo \nModule 01"
+				(at 0 18.542 0)
+				(effects
+					(font
+						(size 1.9304 1.9304)
+						(thickness 0.254)
+						(bold yes)
+					)
+				)
+			)
+			(pin output line
+				(at -41.91 26.67 0)
+				(length 2.54)
+				(name "MIPI_TX_2N"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "MIPI_TX_CN" output line)
+				(alternate "XGPIO_16" bidirectional line)
+			)
+			(pin output line
+				(at -41.91 24.13 0)
+				(length 2.54)
+				(name "MIPI_TX_2P"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "MIPI_TX_CP" output line)
+				(alternate "XGPIOC_17" bidirectional line)
+			)
+			(pin output line
+				(at -41.91 21.59 0)
+				(length 2.54)
+				(name "MIPI_TX_1N"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "XGPIOC_14" bidirectional line)
+			)
+			(pin output line
+				(at -41.91 19.05 0)
+				(length 2.54)
+				(name "MIPI_TX_1P"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "XGPIOC_15" bidirectional line)
+			)
+			(pin output line
+				(at -41.91 16.51 0)
+				(length 2.54)
+				(name "MIPI_TX_0N"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "XGPIOC_12" bidirectional line)
+			)
+			(pin output line
+				(at -41.91 13.97 0)
+				(length 2.54)
+				(name "MIPI_TX_0P"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "XGPIOC_13" bidirectional line)
+			)
+			(pin power_in line
+				(at -41.91 11.43 0)
+				(length 2.54)
+				(name "3V3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -41.91 8.89 0)
+				(length 2.54)
+				(name "3V3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -41.91 6.35 0)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -41.91 3.81 0)
+				(length 2.54)
+				(name "SENSOR_HS0"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "XGPIOA_1" bidirectional line)
+			)
+			(pin bidirectional clock
+				(at -41.91 1.27 0)
+				(length 2.54)
+				(name "SENSOR_CLK1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "XGPIOA_3" bidirectional line)
+			)
+			(pin bidirectional clock
+				(at -41.91 -1.27 0)
+				(length 2.54)
+				(name "SENSOR_CLK0"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "XGPIOA_0" bidirectional line)
+			)
+			(pin bidirectional line
+				(at -41.91 -3.81 0)
+				(length 2.54)
+				(name "I2C3_SENSOR0_SDA"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "XGPIOA_6" bidirectional line)
+			)
+			(pin bidirectional clock
+				(at -41.91 -6.35 0)
+				(length 2.54)
+				(name "I2C3_SENSOR0_SCL"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "14"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "XGPIOA_5" bidirectional line)
+			)
+			(pin bidirectional line
+				(at -41.91 -8.89 0)
+				(length 2.54)
+				(name "SENSOR_RSTN1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "15"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "XGPIOA_4" bidirectional line)
+			)
+			(pin bidirectional line
+				(at -41.91 -11.43 0)
+				(length 2.54)
+				(name "SENSOR_RSTN0"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "16"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "XGPIOA_2" bidirectional line)
+			)
+			(pin output line
+				(at -41.91 -13.97 0)
+				(length 2.54)
+				(name "AUDIO_OUT_L"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "17"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at -41.91 -16.51 0)
+				(length 2.54)
+				(name "AUDIO_OUT_R"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "18"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -41.91 -19.05 0)
+				(length 2.54)
+				(name "AUDIO_IN_L"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "19"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -41.91 -21.59 0)
+				(length 2.54)
+				(name "AUDIO_IN_R"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "20"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -41.91 -24.13 0)
+				(length 2.54)
+				(name "SD_SD0_D1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "21"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "XGPIOA_10" bidirectional line)
+			)
+			(pin bidirectional line
+				(at -41.91 -26.67 0)
+				(length 2.54)
+				(name "SD_SD0_CMD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "22"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "XGPIOA_8" bidirectional line)
+			)
+			(pin output line
+				(at -26.67 41.91 270)
+				(length 2.54)
+				(name "MIPI_TX_3P"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "88"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "XGPIOC_21" bidirectional line)
+			)
+			(pin bidirectional line
+				(at -26.67 -41.91 90)
+				(length 2.54)
+				(name "SD_SD0_CD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "23"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "XGPIOA_13" bidirectional line)
+			)
+			(pin output line
+				(at -24.13 41.91 270)
+				(length 2.54)
+				(name "MIPI_TX_3N"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "87"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "XGPIOC_20" bidirectional line)
+			)
+			(pin bidirectional line
+				(at -24.13 -41.91 90)
+				(length 2.54)
+				(name "SD_SD0_D0"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "24"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "XGPIOA_9" bidirectional line)
+			)
+			(pin output line
+				(at -21.59 41.91 270)
+				(length 2.54)
+				(name "MIPI_TX_4P"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "86"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "XGPIOC_19" bidirectional line)
+			)
+			(pin bidirectional clock
+				(at -21.59 -41.91 90)
+				(length 2.54)
+				(name "SD_SD0_CLK"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "25"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "XGPIOA_7" bidirectional line)
+			)
+			(pin output line
+				(at -19.05 41.91 270)
+				(length 2.54)
+				(name "MIPI_TX_4N"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "85"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "XGPIOC_18" bidirectional line)
+			)
+			(pin bidirectional line
+				(at -19.05 -41.91 90)
+				(length 2.54)
+				(name "SD_SD0_D2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "26"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "XGPIOA_11" bidirectional line)
+			)
+			(pin power_in line
+				(at -16.51 41.91 270)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "84"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -16.51 -41.91 90)
+				(length 2.54)
+				(name "SD_SD0_D3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "27"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "XGPIOA_12" bidirectional line)
+			)
+			(pin bidirectional line
+				(at -13.97 41.91 270)
+				(length 2.54)
+				(name "MIPI0_DP2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "83"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "XGPIOC_7" bidirectional line)
+			)
+			(pin bidirectional line
+				(at -13.97 -41.91 90)
+				(length 2.54)
+				(name "XGPIOB_22"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "28"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "UART2_RX" input line)
+			)
+			(pin bidirectional line
+				(at -11.43 41.91 270)
+				(length 2.54)
+				(name "MIPI0_DN2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "82"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "XGPIOC_6" bidirectional line)
+			)
+			(pin bidirectional line
+				(at -11.43 -41.91 90)
+				(length 2.54)
+				(name "SD_PWR_EN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "29"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -8.89 41.91 270)
+				(length 2.54)
+				(name "MIPI0_DP1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "81"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "XGPIOC_9" bidirectional line)
+			)
+			(pin input line
+				(at -8.89 -41.91 90)
+				(length 2.54)
+				(name "UART0_RX"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "30"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "LCD_PWM" output line)
+				(alternate "PWM8" output line)
+				(alternate "PWR_GPIO_0" bidirectional line)
+				(alternate "UART2_TX" output line)
+			)
+			(pin bidirectional line
+				(at -6.35 41.91 270)
+				(length 2.54)
+				(name "MIPI0_DN1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "80"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "XGPIOC_8" bidirectional line)
+			)
+			(pin output line
+				(at -6.35 -41.91 90)
+				(length 2.54)
+				(name "UART0_TX"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "31"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "PWM4" output line)
+				(alternate "UART1_TX" output line)
+				(alternate "XGPIOA_16" bidirectional line)
+			)
+			(pin bidirectional line
+				(at -3.81 41.91 270)
+				(length 2.54)
+				(name "MIPI0_DP0"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "79"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "XGPIOC_11" bidirectional line)
+			)
+			(pin bidirectional line
+				(at -3.81 -41.91 90)
+				(length 2.54)
+				(name "XGPIOA_18"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "32"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "JTAG_TCK" bidirectional line)
+				(alternate "PWM6" output line)
+				(alternate "UART1_CTS" bidirectional line)
+				(alternate "UART1_RX" input line)
+			)
+			(pin bidirectional line
+				(at -1.27 41.91 270)
+				(length 2.54)
+				(name "MIPI0_DN0"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "78"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "XGPIOC_10" bidirectional line)
+			)
+			(pin bidirectional line
+				(at -1.27 -41.91 90)
+				(length 2.54)
+				(name "XGPIOA_19"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "33"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "JTAG_TMS" bidirectional line)
+				(alternate "PWM7" output line)
+				(alternate "UART1_RTS" bidirectional line)
+				(alternate "UART1_TX" output line)
+			)
+			(pin bidirectional line
+				(at 1.27 41.91 270)
+				(length 2.54)
+				(name "MIPI0_DP3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "77"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "XGPIOC_5" bidirectional line)
+			)
+			(pin bidirectional line
+				(at 1.27 -41.91 90)
+				(length 2.54)
+				(name "XGPIOA_30"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "34"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 3.81 41.91 270)
+				(length 2.54)
+				(name "MIPI0_DN3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "76"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "XGPIOC_4" bidirectional line)
+			)
+			(pin bidirectional line
+				(at 3.81 -41.91 90)
+				(length 2.54)
+				(name "PWR_VBAT_DET"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "35"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 6.35 41.91 270)
+				(length 2.54)
+				(name "MIPI0_DP4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "75"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "XGPIOC_3" bidirectional line)
+			)
+			(pin bidirectional line
+				(at 6.35 -41.91 90)
+				(length 2.54)
+				(name "LCD_RST"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "36"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "I2C2_SDA" bidirectional line)
+				(alternate "PWM10" output line)
+			)
+			(pin bidirectional line
+				(at 8.89 41.91 270)
+				(length 2.54)
+				(name "MIPI0_DN4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "74"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "XGPIOC_2" bidirectional line)
+			)
+			(pin bidirectional line
+				(at 8.89 -41.91 90)
+				(length 2.54)
+				(name "LCD_PWR_CT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "37"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 11.43 41.91 270)
+				(length 2.54)
+				(name "MIPI0_DP5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "73"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "XGPIOC_1" bidirectional line)
+			)
+			(pin bidirectional line
+				(at 11.43 -41.91 90)
+				(length 2.54)
+				(name "LCD_PWM"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "38"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 13.97 41.91 270)
+				(length 2.54)
+				(name "MIPI0_DN5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "72"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "XGPIOC_0" bidirectional line)
+			)
+			(pin bidirectional line
+				(at 13.97 -41.91 90)
+				(length 2.54)
+				(name "I2C_SENSOR1_SDA"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "39"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "PWR_GPIO_13" bidirectional line)
+			)
+			(pin bidirectional line
+				(at 16.51 41.91 270)
+				(length 2.54)
+				(name "XGPIOB_21"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "71"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "I2C4_SDA" bidirectional line)
+			)
+			(pin bidirectional clock
+				(at 16.51 -41.91 90)
+				(length 2.54)
+				(name "I2C_SENSOR1_SCL"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "40"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "PWR_GPIO_12" bidirectional line)
+			)
+			(pin bidirectional line
+				(at 19.05 41.91 270)
+				(length 2.54)
+				(name "XGPIOB_20"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "70"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "I2C4_SCL" bidirectional clock)
+				(alternate "PWM3" output line)
+				(alternate "UART2_TX" output line)
+			)
+			(pin bidirectional line
+				(at 19.05 -41.91 90)
+				(length 2.54)
+				(name "XGPIOA_20"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "41"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "JTAG_TRST" bidirectional line)
+			)
+			(pin bidirectional line
+				(at 21.59 41.91 270)
+				(length 2.54)
+				(name "XGPIOB_19"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "69"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "PWM2" output line)
+				(alternate "UART2_TX" output line)
+			)
+			(pin bidirectional line
+				(at 21.59 -41.91 90)
+				(length 2.54)
+				(name "XGPIOA_29"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "42"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 24.13 41.91 270)
+				(length 2.54)
+				(name "XGPIOB_18"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "68"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "I2C1_SCL" bidirectional clock)
+			)
+			(pin bidirectional line
+				(at 24.13 -41.91 90)
+				(length 2.54)
+				(name "XGPIOA_28"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "43"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "UART1_TX" output line)
+				(alternate "UART2_TX" output line)
+			)
+			(pin bidirectional line
+				(at 26.67 41.91 270)
+				(length 2.54)
+				(name "XGPIOB_17"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "67"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "I2C1_SDA" bidirectional line)
+			)
+			(pin power_in line
+				(at 26.67 -41.91 90)
+				(length 2.54)
+				(name "VDD_BAT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "44"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 41.91 26.67 180)
+				(length 2.54)
+				(name "USB_DP"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "66"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 41.91 24.13 180)
+				(length 2.54)
+				(name "USB_DM"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "65"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 41.91 21.59 180)
+				(length 2.54)
+				(name "EPHY_TXN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "64"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "XGPIOB_27" bidirectional line)
+			)
+			(pin output line
+				(at 41.91 19.05 180)
+				(length 2.54)
+				(name "EPHY_TXP"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "63"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "XGPIOB_26" bidirectional line)
+			)
+			(pin input line
+				(at 41.91 16.51 180)
+				(length 2.54)
+				(name "EPHY_RXN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "62"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "XGPIOB_25" bidirectional line)
+			)
+			(pin input line
+				(at 41.91 13.97 180)
+				(length 2.54)
+				(name "EPHY_RXP"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "61"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "XGPIOB_24" bidirectional line)
+			)
+			(pin input line
+				(at 41.91 11.43 180)
+				(length 2.54)
+				(name "ARM_RISV_SWITCH"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "60"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "XGPIOB_23" bidirectional line)
+			)
+			(pin bidirectional line
+				(at 41.91 8.89 180)
+				(length 2.54)
+				(name "ADC3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "59"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "I2C4_SCL" bidirectional clock)
+				(alternate "PWM12" output line)
+				(alternate "UART3_TX" output line)
+				(alternate "XGPIOB_1" bidirectional line)
+			)
+			(pin bidirectional line
+				(at 41.91 6.35 180)
+				(length 2.54)
+				(name "ADC2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "58"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "I2C4_SDA" bidirectional line)
+				(alternate "PWM13" output line)
+				(alternate "UART3_RX" input line)
+				(alternate "XGPIOB_2" bidirectional line)
+			)
+			(pin bidirectional line
+				(at 41.91 3.81 180)
+				(length 2.54)
+				(name "ADC1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "57"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "XGPIOB_3" bidirectional line)
+			)
+			(pin bidirectional line
+				(at 41.91 1.27 180)
+				(length 2.54)
+				(name "XGPIOB_16"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "56"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "SPI3_CS" output line)
+				(alternate "UART2_RX" input line)
+			)
+			(pin bidirectional line
+				(at 41.91 -1.27 180)
+				(length 2.54)
+				(name "XGPIOB_14"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "55"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "I2C2_SDA" bidirectional line)
+				(alternate "SPI3_SDI" bidirectional line)
+			)
+			(pin bidirectional line
+				(at 41.91 -3.81 180)
+				(length 2.54)
+				(name "XGPIOB_15"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "54"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "SPI3_SCK" bidirectional clock)
+				(alternate "UART2_TX" output line)
+			)
+			(pin bidirectional line
+				(at 41.91 -6.35 180)
+				(length 2.54)
+				(name "XGPIOB_13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "53"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "I2C2_SCL" bidirectional clock)
+				(alternate "PWM3" output line)
+				(alternate "SPI3_SD0" output line)
+			)
+			(pin bidirectional line
+				(at 41.91 -8.89 180)
+				(length 2.54)
+				(name "XGPIOB_11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "52"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "I2C1_SDA" bidirectional line)
+				(alternate "PWM1" output line)
+				(alternate "UART2_TX" output line)
+			)
+			(pin bidirectional line
+				(at 41.91 -11.43 180)
+				(length 2.54)
+				(name "XGPIOB_12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "51"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "I2C1_SCL" bidirectional clock)
+				(alternate "PWM2" output line)
+				(alternate "UART2_RX" input line)
+			)
+			(pin bidirectional line
+				(at 41.91 -13.97 180)
+				(length 2.54)
+				(name "EPHY_SPD_LED"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "50"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "PWR_GPIO_8" bidirectional line)
+			)
+			(pin bidirectional line
+				(at 41.91 -16.51 180)
+				(length 2.54)
+				(name "EPHY_LNK_LED"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "49"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "PWR_GPIO_6" bidirectional line)
+			)
+			(pin bidirectional line
+				(at 41.91 -19.05 180)
+				(length 2.54)
+				(name "VBUS_DET"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "48"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "XGPIOB_6" bidirectional line)
+			)
+			(pin bidirectional line
+				(at 41.91 -21.59 180)
+				(length 2.54)
+				(name "UPDATE"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "47"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "XGPIOB_4" bidirectional line)
+			)
+			(pin bidirectional line
+				(at 41.91 -24.13 180)
+				(length 2.54)
+				(name "VBUS_EN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "46"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "XGPIOB_5" bidirectional line)
+			)
+			(pin bidirectional line
+				(at 41.91 -26.67 180)
+				(length 2.54)
+				(name "PWM0_BUCK"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "45"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "XGPIOB_0" bidirectional line)
+			)
+		)
+		(embedded_fonts no)
+	)
+)

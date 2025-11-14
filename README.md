@@ -1,12 +1,27 @@
-# Milk-V Duo Module 01 KiCad Footprints
+# Milk-V Duo KiCad Footprints
 
-KiCad symbol/footprint library for the Milk-V Duo Module 01, a
-compact module with integrated SG2000, WI-FI6/BTDM5.4, and eMMC.
+KiCad symbol/footprint library for the Milk-V Duo series of SBC's.
+The Duo is a line of small form factor RISC-V and ARM SBC's that are
+are capable of running Linux.
 
-This library provides a multi-unit symbol and SMD footprint to utilize 
-the module in your hardware designs.
+This library provides symbol and SMD footprints for the Duo family 
+in your hardware designs.
 
-The symbol is provides as a multi-unit symbol. Many of the pins on the 
-module can have multiple functions (ex. a pin can serve as MIPI or GPIO).
-KiCad supports alternate pin symbols, activate the desire alternate depending on your
-design. This will allow you to keep symbol units cleans and unused functions are hidden.
+## Provided Components
+
+- [ ] Duo (CV1800B)
+  - [ ] Symbol
+  - [ ] Footprint
+  - [ ] 3D Model
+- [ ] Duo 256M (SG2002)
+  - [ ] Symbol
+  - [ ] Footprint
+  - [ ] 3D Model
+- [ ] Duo S (SG2000)
+  - [ ] Symbol
+  - [ ] Footprint
+  - [ ] 3D Model
+- [x] Duo Module 01 (SG2000)
+  - [x] Symbol
+  - [ ] Footprint
+  - [ ] 3D Model
